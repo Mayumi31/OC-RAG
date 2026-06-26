@@ -1,0 +1,35 @@
+{
+  "code": "BSEd",
+  "name": "Bachelor of Secondary Education",
+  "college": "College of Teacher Education (CTE)",
+  "overview": "The Bachelor of Secondary Education program prepares future teachers to educate students at the junior and senior high school levels. It equips graduates with strong content knowledge in their chosen major subject area, effective teaching strategies, classroom management skills, and a deep commitment to student development. Graduates are licensed to teach in public and private secondary schools in the Philippines.",
+  "ideal_student": "This program suits students who are passionate about teaching, patient, and genuinely enjoy working with adolescents. Students who communicate clearly, inspire others, and find fulfillment in helping young people grow academically and personally thrive here. It is also ideal for students who want to make a meaningful impact on society through education.",
+  "skills": "Lesson planning, classroom management, instructional design, student assessment, communication, mentoring, critical thinking, subject matter expertise, curriculum development, educational technology integration, and interpersonal skills.",
+  "careers": "Secondary school teacher, department head, school administrator, curriculum developer, educational consultant, guidance counselor (with further training), review center instructor, corporate trainer, education program officer, and government education specialist.",
+  "work_environment": "Graduates primarily work in public and private junior and senior high schools. The work involves daily classroom instruction, preparing lesson plans, evaluating student performance, coordinating with parents and school staff, and participating in school events and professional development activities.",
+  "strand_alignment": "Recommended for students from HUMSS strand. Students from ABM, STEM, or GAS who have a strong passion for teaching and a background aligned with their chosen major may also qualify.",
+  "grade_threshold": 85,
+  "keywords": "teaching education teacher secondary high school students classroom instruction lesson plan curriculum learning mentor guidance subject english math science filipino values MAPEH TLE educ pedagogy LET board exam licensure school adolescents youth learning development academic",
+  "holland_types": ["Social", "Artistic"],
+  "holland_primary": "Social",
+  "holland_secondary": "Artistic",
+  "holland_rationale": "BSEd is primarily Social due to its core focus on teaching, mentoring, and nurturing adolescent development. Artistic is secondary because effective teaching requires creativity in instructional design, lesson delivery, and engaging communication.",
+  "competency_domains": [
+    "Communication",
+    "Mentoring",
+    "Curriculum Development",
+    "Instructional Design",
+    "Classroom Management",
+    "Student Assessment",
+    "Educational Technology",
+    "Interpersonal Skills"
+  ],
+  "career_outcome_categories": [
+    "Teaching",
+    "Curriculum Development",
+    "Educational Administration",
+    "Educational Consulting",
+    "Corporate Training",
+    "Government Education Services"
+  ]
+}

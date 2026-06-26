@@ -1,0 +1,37 @@
+{
+  "code": "BSBA",
+  "name": "Bachelor of Science in Business Administration",
+  "college": "College of Business Administration and Accountancy (CBAA)",
+  "overview": "The BS Business Administration program develops future business leaders and entrepreneurs with a broad understanding of management, marketing, finance, operations, and organizational behavior. It prepares students to start, manage, and grow businesses or lead organizations in both private and public sectors.",
+  "ideal_student": "This program suits students who are ambitious, entrepreneurial, and interested in how organizations work. Students who enjoy leading groups, solving business problems, communicating with people, and thinking strategically about markets and opportunities thrive here. It is also great for students who want to eventually run their own business or manage a team.",
+  "skills": "Business planning, marketing, financial management, operations management, leadership, negotiation, communication, decision-making, customer relations, strategic thinking, and entrepreneurship.",
+  "careers": "Business manager, entrepreneur, marketing officer, sales manager, operations manager, human resources manager, business development officer, retail manager, government administrator, management consultant.",
+  "work_environment": "Graduates work in corporations, SMEs, startups, government agencies, and their own businesses. The work is dynamic and involves meetings, planning, managing people, analyzing market trends, and making operational decisions.",
+  "strand_alignment": "Recommended for students from ABM strand. Students from HUMSS or GAS with strong communication and leadership track records may also qualify.",
+  "grade_threshold": 85,
+  "keywords": "business management entrepreneurship marketing sales leadership organization commerce trade money profit strategy planning operations HR human resources administration office corporate startup SME entrepreneur own business manager team leadership negotiation customer market brand",
+  "holland_types": ["Enterprising", "Social"],
+  "holland_primary": "Enterprising",
+  "holland_secondary": "Social",
+  "holland_rationale": "BSBA is primarily Enterprising because it centers on leadership, persuasion, strategic decision-making, and driving organizational goals. Social is secondary because business management inherently involves working with people, managing teams, and building client and stakeholder relationships.",
+  "competency_domains": [
+    "Leadership",
+    "Business Planning",
+    "Marketing",
+    "Financial Management",
+    "Operations Management",
+    "Strategic Thinking",
+    "Negotiation",
+    "Entrepreneurship",
+    "Customer Relations"
+  ],
+  "career_outcome_categories": [
+    "Business Management",
+    "Entrepreneurship",
+    "Marketing and Sales",
+    "Human Resources Management",
+    "Operations Management",
+    "Government Administration",
+    "Management Consulting"
+  ]
+}

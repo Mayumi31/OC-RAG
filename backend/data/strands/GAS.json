@@ -1,0 +1,54 @@
+{
+  "strand_code": "GAS",
+  "strand_name": "General Academic Strand",
+  "strand_description": "The GAS strand is a flexible academic track that exposes students to a broad range of subjects across multiple disciplines — sciences, humanities, business, and social sciences. It does not specialize in a single domain and is suited for students who are still exploring their interests or who need cross-disciplinary exposure.",
+  "core_academic_subjects": [
+    "Humanities 1 and 2",
+    "Social Science 1 and 2",
+    "Organization and Management",
+    "Disaster Readiness and Risk Reduction",
+    "Applied Economics",
+    "Elective subjects from other strands",
+    "Research or Capstone Project",
+    "Work Immersion in various settings"
+  ],
+  "core_competency_strengths": [
+    "Adaptability",
+    "General Communication",
+    "Research Methods",
+    "Critical Thinking",
+    "Social Awareness",
+    "Broad Academic Knowledge",
+    "Interdisciplinary Thinking"
+  ],
+  "dominant_holland_types": ["Social", "Conventional"],
+  "secondary_holland_types": ["Enterprising", "Investigative"],
+  "holland_rationale": "GAS students do not have a single dominant Holland profile due to the generalist nature of the strand. Social is common because the strand's humanities and social science exposure attracts interpersonally-oriented students. Conventional appears in students who chose GAS for its structured and manageable curriculum. The actual RIASEC type of a GAS student is best determined from their individual responses rather than strand alone — the LLM should weight personal signals more heavily than strand for GAS students.",
+  "scct_typical_self_efficacy_domains": [
+    "Communication",
+    "Research",
+    "General Social Sciences",
+    "Humanities",
+    "Organizational Skills",
+    "Interdisciplinary Knowledge"
+  ],
+  "scct_typical_outcome_expectations": [
+    "Teaching",
+    "Public Service",
+    "Community Work",
+    "Business",
+    "Counseling",
+    "Law Enforcement",
+    "Various — highly individual for GAS students"
+  ],
+  "aligned_programs_primary": ["BSEd", "BSPSY"],
+  "aligned_programs_secondary": ["BSBA", "BSCRIM", "BSHRM"],
+  "grade_note": "GAS students have highly variable academic profiles. Program eligibility should be assessed primarily on GWA, individual subject performance, and personal signals from the assessment — not strand alone. GAS students should never be filtered out of a program solely on strand basis if their personal profile is strong.",
+  "special_handling_instruction": "For GAS students, the Stage 1 LLM should place HIGHER weight on individual question responses (especially q4, q6, and q7) and LOWER weight on strand-based assumptions when determining RIASEC type and SCCT signals. GAS is the most heterogeneous strand.",
+  "common_student_profiles": [
+    "The Undecided Explorer — not yet sure of career direction, benefits most from RIASEC/SCCT analysis",
+    "The Pragmatic Student — chose GAS for flexibility, has hidden strengths to be surfaced through assessment",
+    "The People Person — drifted to GAS from HUMSS interest, Social type likely dominant",
+    "The Business-Curious — interested in commerce but did not enter ABM, Enterprising/Conventional signals likely"
+  ]
+}

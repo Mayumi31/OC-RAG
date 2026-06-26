@@ -1,0 +1,37 @@
+{
+  "code": "BSHRM",
+  "name": "Bachelor of Science in Hotel and Restaurant Management",
+  "college": "College of International Hospitality and Tourism Management (CIHTM)",
+  "overview": "The BS Hotel and Restaurant Management program prepares students for leadership roles in the hospitality industry. Students learn hotel operations, food and beverage management, front office management, housekeeping, events management, and customer service excellence. The program combines business management with the art of creating exceptional guest experiences.",
+  "ideal_student": "This program is ideal for students who are naturally warm, service-oriented, and thrive in social environments. Students who enjoy working with people, have a passion for food and travel, appreciate elegance and detail, and want to create memorable experiences for guests excel here. It suits those who see hospitality as a lifestyle, not just a job.",
+  "skills": "Customer service, food and beverage operations, hotel management, events planning, communication, leadership, financial management for hospitality, culinary basics, housekeeping standards, and cross-cultural communication.",
+  "careers": "Hotel manager, restaurant manager, front desk officer, food and beverage supervisor, events coordinator, resort manager, catering manager, cruise ship staff, airline cabin crew, hospitality entrepreneur.",
+  "work_environment": "Graduates work in hotels, resorts, restaurants, cruise ships, airlines, event venues, and their own hospitality businesses. Work involves shift-based schedules, face-to-face guest interaction, team coordination, and maintaining service quality standards.",
+  "strand_alignment": "Recommended for students from ABM or HUMSS strand. Students from TVL-Home Economics with strong interpersonal skills may also qualify.",
+  "grade_threshold": 82,
+  "keywords": "hotel restaurant hospitality service food beverage cooking culinary guests tourism travel accommodation front desk events management catering resort cruise ship airline food industry customer service people-oriented welcoming social warm international travel leisure luxury fine dining bar barista barista management food business",
+  "holland_types": ["Enterprising", "Social"],
+  "holland_primary": "Enterprising",
+  "holland_secondary": "Social",
+  "holland_rationale": "BSHRM is primarily Enterprising because hospitality management involves leading teams, managing operations, driving business performance, and making decisions in a fast-paced commercial environment. Social is secondary because the entire industry is built around serving, satisfying, and creating experiences for people — constant interpersonal interaction is central to every role.",
+  "competency_domains": [
+    "Customer Service",
+    "Events Planning",
+    "Food and Beverage Operations",
+    "Hotel Operations Management",
+    "Leadership",
+    "Communication",
+    "Cross-Cultural Communication",
+    "Financial Management",
+    "Hospitality Entrepreneurship"
+  ],
+  "career_outcome_categories": [
+    "Hotel Management",
+    "Restaurant Management",
+    "Events Coordination",
+    "Food and Beverage Management",
+    "Resort and Tourism Management",
+    "Hospitality Entrepreneurship",
+    "Airline and Cruise Services"
+  ]
+}

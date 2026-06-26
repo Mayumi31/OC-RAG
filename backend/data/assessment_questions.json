@@ -1,0 +1,68 @@
+{
+  "questionnaire_metadata": {
+    "title": "LSPU-LB College Program Assessment Questionnaire",
+    "version": "1.0",
+    "total_questions": 8,
+    "response_type": "open-ended",
+    "theoretical_framework": ["Holland RIASEC Typology", "Social Cognitive Career Theory (SCCT)"],
+    "instructions": "Answer each question honestly and in as much detail as you can. There are no right or wrong answers. Your responses will help us understand your personality, strengths, and career goals so we can recommend the most suitable college program for you."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "text": "What kinds of activities or tasks do you enjoy doing the most — whether in school, at home, or in your free time? Describe specifically what you do and why you enjoy them.",
+      "follow_up_probe": "Think about moments when you felt most engaged or 'in the zone.' What were you doing?",
+      "purpose": "Captures dominant activity preferences to identify primary RIASEC orientation (R, I, A, S, E, or C)"
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "text": "When you encounter a difficult problem or a question you do not immediately know the answer to, how do you usually handle it? Please give a specific example from school or life.",
+      "follow_up_probe": "Do you prefer to figure things out alone, look things up, ask others, or try things hands-on?",
+      "purpose": "Reveals problem-solving style to distinguish Investigative (I) vs. Realistic (R) vs. Social (S) tendencies"
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "text": "Describe a time when you helped someone, led a group, or made a contribution to your school or community. What did you do, and how did that experience make you feel?",
+      "follow_up_probe": "Did you enjoy being in that role? Would you want to do it again?",
+      "purpose": "Captures Social (S) and Enterprising (E) signals, and SCCT outcome expectations for interpersonal roles"
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "text": "What subjects or areas in school are you genuinely good at, and which ones do you find difficult or uninteresting? Be honest about both — strengths and weaknesses matter equally here.",
+      "follow_up_probe": "How confident do you feel in your best subjects? Do you think you could build a career around them?",
+      "purpose": "Primary SCCT self-efficacy signal — maps subject competence to academic competency domains"
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "text": "If you could have any career or profession for the rest of your life — and money, prestige, or other people's opinions were not a concern — what would you choose and why?",
+      "follow_up_probe": "What is it about that career that appeals to you most — the type of work, the people, the impact, or something else?",
+      "purpose": "Direct SCCT career outcome expectation and preference signal; also reinforces Holland type from an aspirational angle"
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "text": "When you imagine yourself doing work that feels meaningful and fulfilling, which of these feels most like you — and why? (a) Working with tools, machines, or physical things; (b) Researching, analyzing data, or solving complex problems; (c) Creating, designing, or expressing ideas; (d) Helping, teaching, or caring for people; (e) Leading, persuading, or managing others; (f) Organizing, following systems, or managing information and records.",
+      "follow_up_probe": "You may choose more than one if they feel equally true. Explain your choices.",
+      "purpose": "Direct RIASEC type elicitation — (a)=R, (b)=I, (c)=A, (d)=S, (e)=E, (f)=C — used to validate or triangulate signals from q1 and q5"
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "text": "What do you consider your top 3 personal strengths or skills? Give a concrete example of how you have used each one — in school, in a project, in a sport, in a hobby, or anywhere in your life.",
+      "follow_up_probe": "How confident are you in each of these strengths? Do you feel they could carry you in a professional setting?",
+      "purpose": "Core SCCT self-efficacy signal — identifies high-confidence competency domains with evidence; feeds directly into Stage 2 competency matching"
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "text": "Describe the kind of life and work environment you picture for yourself 10 years from now. Where are you, what are you doing day-to-day, who are you working with, and what kind of impact are you making?",
+      "follow_up_probe": "What does success look like to you at that point in your life?",
+      "purpose": "SCCT outcome expectation — captures long-term career vision and work environment preference; maps to Holland environment types and program career outcomes"
+    }
+  ]
+}

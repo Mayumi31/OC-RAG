@@ -1,0 +1,38 @@
+{
+  "code": "BSIT",
+  "name": "Bachelor of Science in Information Technology",
+  "college": "College of Computer Studies (CCS)",
+  "overview": "The BS Information Technology program focuses on the practical application of technology to solve real-world business and organizational problems. It covers systems development, networking, database management, web development, and IT support. Unlike Computer Science which emphasizes theory and algorithms, BSIT emphasizes building and maintaining working technology solutions for organizations and users.",
+  "ideal_student": "This program is ideal for students who love computers and technology but are more drawn to building practical systems than deep mathematical theory. Students who enjoy helping organizations use technology better, building websites and apps, troubleshooting tech problems, and working directly with users tend to thrive here. It suits hands-on, practical thinkers.",
+  "skills": "Web development, database management, network administration, systems analysis, technical support, software development, IT project management, cybersecurity basics, UI/UX design, and documentation.",
+  "careers": "Web developer, systems administrator, database administrator, IT support specialist, network administrator, software developer, IT project manager, technical consultant, UI/UX designer, cybersecurity analyst.",
+  "work_environment": "Graduates work in technology companies, BPOs, government agencies, banks, hospitals, and any organization that depends on IT infrastructure. Work involves developing systems, maintaining servers, supporting users, and collaborating with non-technical staff to solve technology problems.",
+  "strand_alignment": "Recommended for students from STEM or TVL-ICT strand. Students from other strands with strong technology interest and self-taught experience may also qualify.",
+  "grade_threshold": 85,
+  "keywords": "IT information technology computers internet websites apps systems networking databases tech support software development programming web design user interface practical technology solutions organizations helpdesk troubleshoot hardware infrastructure cloud mobile developer build repair configure digital systems",
+  "holland_types": ["Realistic", "Investigative"],
+  "holland_primary": "Realistic",
+  "holland_secondary": "Investigative",
+  "holland_rationale": "BSIT is primarily Realistic because it centers on building, configuring, maintaining, and troubleshooting concrete technology systems — hands-on practical work with tools and machines. Investigative is secondary because IT professionals must analyze problems, understand system behavior, and think logically to design effective solutions.",
+  "competency_domains": [
+    "Systems Development",
+    "Web Development",
+    "Database Management",
+    "Network Administration",
+    "Technical Support",
+    "Cybersecurity",
+    "IT Project Management",
+    "UI/UX Design",
+    "Information Technology"
+  ],
+  "career_outcome_categories": [
+    "Web Development",
+    "Systems Administration",
+    "Database Administration",
+    "IT Support and Consulting",
+    "Network Administration",
+    "Software Development",
+    "Cybersecurity",
+    "UI/UX Design"
+  ]
+}

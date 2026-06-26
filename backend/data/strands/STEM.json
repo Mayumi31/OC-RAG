@@ -1,0 +1,60 @@
+{
+  "strand_code": "STEM",
+  "strand_name": "Science, Technology, Engineering, and Mathematics",
+  "strand_description": "The STEM strand develops students with rigorous training in the natural sciences, mathematics, and technology. It cultivates analytical, problem-solving, and research skills and prepares students for science and technology-intensive degree programs.",
+  "core_academic_subjects": [
+    "Pre-Calculus",
+    "Basic Calculus",
+    "General Biology 1 and 2",
+    "General Chemistry 1 and 2",
+    "General Physics 1 and 2",
+    "Earth Science",
+    "Research in Daily Life 1 and 2",
+    "Empowerment Technologies",
+    "Engineering and Architecture",
+    "Work Immersion in Science or Technology Settings"
+  ],
+  "core_competency_strengths": [
+    "Analytical Reasoning",
+    "Quantitative Reasoning",
+    "Research Methods",
+    "Biological Sciences",
+    "Physical Sciences",
+    "Laboratory Skills",
+    "Mathematical Reasoning",
+    "Logical Thinking",
+    "Information Technology"
+  ],
+  "dominant_holland_types": ["Investigative", "Realistic"],
+  "secondary_holland_types": ["Conventional"],
+  "holland_rationale": "STEM students are predominantly Investigative because their curriculum is built around scientific inquiry, analytical thinking, and understanding complex systems. Realistic is common for students drawn to engineering, technology, and laboratory-based fields where hands-on experimentation and tool use are central. Conventional appears in students who gravitate toward systematic mathematical or data-intensive work.",
+  "scct_typical_self_efficacy_domains": [
+    "Mathematics",
+    "Natural Sciences",
+    "Biological Sciences",
+    "Laboratory Skills",
+    "Research Methods",
+    "Analytical Reasoning",
+    "Information Technology",
+    "Quantitative Reasoning"
+  ],
+  "scct_typical_outcome_expectations": [
+    "Research and Development",
+    "Engineering",
+    "Medicine and Health Sciences",
+    "Information Technology",
+    "Environmental Science",
+    "Food Science",
+    "Marine Biology",
+    "Data Analysis"
+  ],
+  "aligned_programs_primary": ["BSIT", "BSFT", "BSF"],
+  "aligned_programs_secondary": ["BSA", "BSCRIM"],
+  "grade_note": "STEM graduates generally have strong science and math performance. BSA is viable for STEM students with very high math GWA. BSIT suits STEM students with technology interest. BSFT and BSF are ideal for students with strong biology and chemistry performance.",
+  "common_student_profiles": [
+    "The Tech Builder — loves computers, programming, and building systems, Realistic/Investigative type",
+    "The Lab Scientist — drawn to biology, chemistry, and research, Investigative type",
+    "The Environmental Student — passionate about nature and conservation, Realistic/Investigative type",
+    "The Math-Driven Student — excels at quantitative work, interested in finance or accounting, Conventional/Investigative type"
+  ]
+}

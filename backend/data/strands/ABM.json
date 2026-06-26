@@ -1,0 +1,56 @@
+{
+  "strand_code": "ABM",
+  "strand_name": "Accountancy, Business, and Management",
+  "strand_description": "The ABM strand develops students with foundational knowledge in business, finance, marketing, and organizational management. It prepares students for careers in the business sector and equips them with practical skills in accounting, economics, and entrepreneurship.",
+  "core_academic_subjects": [
+    "Business Mathematics",
+    "Business Finance",
+    "Fundamentals of Accountancy, Business, and Management 1 and 2",
+    "Applied Economics",
+    "Organization and Management",
+    "Principles of Marketing",
+    "Business Ethics and Social Responsibility",
+    "Entrepreneurship",
+    "Work Immersion in Business Settings"
+  ],
+  "core_competency_strengths": [
+    "Financial Literacy",
+    "Quantitative Reasoning",
+    "Business Planning",
+    "Marketing",
+    "Entrepreneurship",
+    "Organizational Management",
+    "Analytical Reasoning",
+    "Attention to Detail"
+  ],
+  "dominant_holland_types": ["Enterprising", "Conventional"],
+  "secondary_holland_types": ["Social"],
+  "holland_rationale": "ABM students are predominantly Enterprising due to the business and leadership focus of their curriculum. Conventional is common because accounting and finance subjects require precision, rule-following, and systematic data management. Social emerges in students drawn to marketing, HR, and management roles.",
+  "scct_typical_self_efficacy_domains": [
+    "Business Mathematics",
+    "Financial Literacy",
+    "Quantitative Reasoning",
+    "Marketing",
+    "Leadership",
+    "Entrepreneurship",
+    "Organizational Skills"
+  ],
+  "scct_typical_outcome_expectations": [
+    "Business Management",
+    "Entrepreneurship",
+    "Accounting and Auditing",
+    "Marketing and Sales",
+    "Finance",
+    "Human Resources",
+    "Banking"
+  ],
+  "aligned_programs_primary": ["BSA", "BSBA"],
+  "aligned_programs_secondary": ["BSHRM", "BSPSY"],
+  "grade_note": "ABM graduates with very high GWA (90+) and strong math performance are excellent BSA candidates. Students with average GWA (85–89) and strong communication or leadership skills are better suited for BSBA or BSHRM.",
+  "common_student_profiles": [
+    "The Future Accountant — loves numbers, detail-oriented, disciplined, Conventional/Enterprising type",
+    "The Entrepreneur — business-minded, risk-tolerant, leadership-driven, Enterprising type",
+    "The Marketing Student — creative in business contexts, people-oriented, Enterprising/Social type",
+    "The HR Track Student — interested in people and organizations, Social/Enterprising type"
+  ]
+}
