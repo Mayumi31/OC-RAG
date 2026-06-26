@@ -1,0 +1,36 @@
+{
+  "code": "BSPSY",
+  "name": "Bachelor of Science in Psychology",
+  "college": "College of Arts and Sciences (CAS)",
+  "overview": "The BS Psychology program equips students with a deep understanding of human behavior, mental processes, and emotional well-being. It bridges science and the human experience, training students to observe, analyze, and support people across various life contexts including clinical, educational, organizational, and community settings.",
+  "ideal_student": "This program suits students who are naturally curious about why people think, feel, and behave the way they do. Students who are empathetic, good listeners, and genuinely interested in helping others navigate their challenges tend to thrive here. It is also ideal for students who enjoy research, data interpretation, and understanding the science behind human relationships and decision-making.",
+  "skills": "Active listening, empathy, critical thinking, research and data analysis, written and verbal communication, counseling techniques, behavioral observation, report writing, and ethical reasoning.",
+  "careers": "Guidance counselor, human resources officer, clinical psychologist (with graduate studies), organizational psychologist, mental health advocate, social worker, researcher, behavioral analyst, teacher, community development worker.",
+  "work_environment": "Graduates work in schools, hospitals, corporations, government agencies, NGOs, and private practice. The work involves interacting with people daily, conducting assessments, facilitating counseling sessions, and collaborating with interdisciplinary teams.",
+  "strand_alignment": "Recommended for students from HUMSS strand. Students from GAS or ABM with strong communication and social science performance may also qualify.",
+  "grade_threshold": 85,
+  "keywords": "psychology behavior mental health emotions people counseling therapy listening helping understanding human mind feelings relationships anxiety depression stress mental wellness social science research empathy communication support community guidance human resources HR organizational behavior personality development well-being",
+  "holland_types": ["Social", "Investigative"],
+  "holland_primary": "Social",
+  "holland_secondary": "Investigative",
+  "holland_rationale": "BSPSY is primarily Social because its core purpose is understanding and supporting human behavior and mental well-being through interpersonal interaction. Investigative is secondary because psychology is a science requiring rigorous research, behavioral analysis, and data interpretation.",
+  "competency_domains": [
+    "Counseling",
+    "Research Methods",
+    "Behavioral Analysis",
+    "Communication",
+    "Empathy and Active Listening",
+    "Data Analysis",
+    "Ethical Reasoning",
+    "Report Writing"
+  ],
+  "career_outcome_categories": [
+    "Guidance Counseling",
+    "Human Resources",
+    "Clinical Psychology",
+    "Community Development",
+    "Research",
+    "Mental Health Advocacy",
+    "Organizational Psychology"
+  ]
+}

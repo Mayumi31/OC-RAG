@@ -1,0 +1,991 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://lspu-lb.edu.ph/ocrag/ontology"
+         xmlns="http://lspu-lb.edu.ph/ocrag/ontology#">
+
+<owl:Ontology rdf:about="http://lspu-lb.edu.ph/ocrag/ontology"/>
+
+<owl:ObjectProperty rdf:about="#alignsWithHollandType">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="#HollandType"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#requiresCompetency">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="#CompetencyDomain"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#leadsToCareer">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="#CareerOutcome"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasProgramCode">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasGradeThreshold">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasStrandAlignment">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasCollegeName">
+  <rdfs:domain rdf:resource="#AcademicProgram"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#HollandType">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AcademicProgram">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CompetencyDomain">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CareerOutcome">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Realistic">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Realistic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Investigative">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigative</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Artistic">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artistic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Social">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Enterprising">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprising</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Conventional">
+  <rdf:type rdf:resource="#HollandType"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conventional</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Analytical_Reasoning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical Reasoning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aquaculture">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquaculture</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Attention_to_Detail">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attention to Detail</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Auditing">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auditing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Behavioral_Analysis">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral Analysis</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Biological_Sciences">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Sciences</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Business_Law">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business Law</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Business_Planning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business Planning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Classroom_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classroom Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Communication">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Counseling">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Counseling</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Criminal_Investigation">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Criminal Investigation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Crisis_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crisis Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cross_Cultural_Communication">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross-Cultural Communication</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Curriculum_Development">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curriculum Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Customer_Relations">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer Relations</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Customer_Service">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer Service</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cybersecurity">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Data_Analysis">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Analysis</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Database_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Discipline_and_Order">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discipline and Order</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Educational_Technology">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educational Technology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Empathy_and_Active_Listening">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empathy and Active Listening</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Entrepreneurship">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entrepreneurship</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Environmental_Conservation">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Conservation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Environmental_Monitoring">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Monitoring</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ethical_Judgment">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethical Judgment</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ethical_Reasoning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethical Reasoning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Events_Planning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events Planning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Financial_Accounting">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial Accounting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Financial_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fisheries_Resource_Assessment">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisheries Resource Assessment</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Chemistry">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Chemistry</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Processing">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Processing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Safety_Regulations">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Safety Regulations</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_and_Beverage_Operations">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food and Beverage Operations</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Forensic_Analysis">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forensic Analysis</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Hospitality_Entrepreneurship">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospitality Entrepreneurship</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Hotel_Operations_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hotel Operations Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#IT_Project_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT Project Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Information_Technology">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Technology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Instructional_Design">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instructional Design</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Interpersonal_Skills">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpersonal Skills</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Laboratory_Analysis">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory Analysis</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Leadership">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leadership</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Legal_Reasoning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal Reasoning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marine_Biology">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marine Biology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marketing">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marketing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mentoring">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentoring</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Microbiology">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Negotiation">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negotiation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Network_Administration">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Administration</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Operations_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operations Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Physical_Fitness">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Fitness</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Product_Development">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Public_Safety_Procedures">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Safety Procedures</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Quality_Control">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Control</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Quantitative_Reasoning">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Reasoning</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Report_Preparation">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Report Preparation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Report_Writing">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Report Writing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Research_Methods">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Methods</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Seafood_Processing">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood Processing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Strategic_Thinking">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategic Thinking</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Student_Assessment">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Student Assessment</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Systems_Development">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Taxation">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Technical_Support">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical Support</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#UI_UX_Design">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UI/UX Design</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Water_Quality_Management">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Quality Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Web_Development">
+  <rdf:type rdf:resource="#CompetencyDomain"/>
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Airline_and_Cruise_Services">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Airline and Cruise Services</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aquaculture_and_Fish_Production">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquaculture and Fish Production</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Budget_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Budget Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Business_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Clinical_Psychology">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Psychology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Community_Development">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Community_Fisheries_Extension">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community Fisheries Extension</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Corporate_Finance">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corporate Finance</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Corporate_Training">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corporate Training</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Correctional_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correctional Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Criminal_Justice_Research">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Criminal Justice Research</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Database_Administration">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Administration</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Educational_Administration">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educational Administration</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Educational_Consulting">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educational Consulting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Environmental_Compliance">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Compliance</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Events_Coordination">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events Coordination</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Financial_Analysis">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial Analysis</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fisheries_Regulation">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisheries Regulation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Entrepreneurship">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Entrepreneurship</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Manufacturing">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Manufacturing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Product_Development">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Product Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Research">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Research</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Safety_Inspection">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Safety Inspection</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_Technology">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Technology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Food_and_Beverage_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food and Beverage Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Forensic_Science">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forensic Science</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Government_Administration">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Administration</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Government_Auditing">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Auditing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Government_Education_Services">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Education Services</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Government_Fisheries_Services">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Fisheries Services</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Government_Safety_Services">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government Safety Services</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Guidance_Counseling">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guidance Counseling</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Hotel_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hotel Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Human_Resources">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Resources</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Human_Resources_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Resources Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#IT_Support_and_Consulting">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT Support and Consulting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Law_Enforcement">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Law Enforcement</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Management_Consulting">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Management Consulting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marine_Biology_Research">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marine Biology Research</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marketing_and_Sales">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marketing and Sales</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mental_Health_Advocacy">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Health Advocacy</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Organizational_Psychology">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizational Psychology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Private_Security">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Private Security</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Public_Accounting">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Accounting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Public_Safety">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public Safety</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Quality_Assurance">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Assurance</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Regulatory_Affairs">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulatory Affairs</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Research">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Resort_and_Tourism_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resort and Tourism Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Restaurant_Management">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restaurant Management</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Seafood_Quality_Control">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood Quality Control</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Software_Development">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Development</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Systems_Administration">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems Administration</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tax_Consulting">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tax Consulting</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Teaching">
+  <rdf:type rdf:resource="#CareerOutcome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teaching</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSA">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Conventional"/>
+  <alignsWithHollandType rdf:resource="#Enterprising"/>
+  <requiresCompetency rdf:resource="#Financial_Accounting"/>
+  <requiresCompetency rdf:resource="#Auditing"/>
+  <requiresCompetency rdf:resource="#Taxation"/>
+  <requiresCompetency rdf:resource="#Quantitative_Reasoning"/>
+  <requiresCompetency rdf:resource="#Analytical_Reasoning"/>
+  <requiresCompetency rdf:resource="#Attention_to_Detail"/>
+  <requiresCompetency rdf:resource="#Report_Preparation"/>
+  <requiresCompetency rdf:resource="#Ethical_Judgment"/>
+  <requiresCompetency rdf:resource="#Business_Law"/>
+  <leadsToCareer rdf:resource="#Public_Accounting"/>
+  <leadsToCareer rdf:resource="#Auditing"/>
+  <leadsToCareer rdf:resource="#Tax_Consulting"/>
+  <leadsToCareer rdf:resource="#Financial_Analysis"/>
+  <leadsToCareer rdf:resource="#Government_Auditing"/>
+  <leadsToCareer rdf:resource="#Corporate_Finance"/>
+  <leadsToCareer rdf:resource="#Budget_Management"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Accountancy</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSA</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongly recommended for students from ABM strand with strong mathematics and business subjects performance. STEM students with high math performance may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Business Administration and Accountancy (CBAA)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSBA">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Enterprising"/>
+  <alignsWithHollandType rdf:resource="#Social"/>
+  <requiresCompetency rdf:resource="#Leadership"/>
+  <requiresCompetency rdf:resource="#Business_Planning"/>
+  <requiresCompetency rdf:resource="#Marketing"/>
+  <requiresCompetency rdf:resource="#Financial_Management"/>
+  <requiresCompetency rdf:resource="#Operations_Management"/>
+  <requiresCompetency rdf:resource="#Strategic_Thinking"/>
+  <requiresCompetency rdf:resource="#Negotiation"/>
+  <requiresCompetency rdf:resource="#Entrepreneurship"/>
+  <requiresCompetency rdf:resource="#Customer_Relations"/>
+  <leadsToCareer rdf:resource="#Business_Management"/>
+  <leadsToCareer rdf:resource="#Entrepreneurship"/>
+  <leadsToCareer rdf:resource="#Marketing_and_Sales"/>
+  <leadsToCareer rdf:resource="#Human_Resources_Management"/>
+  <leadsToCareer rdf:resource="#Operations_Management"/>
+  <leadsToCareer rdf:resource="#Government_Administration"/>
+  <leadsToCareer rdf:resource="#Management_Consulting"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Business Administration</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSBA</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from ABM strand. Students from HUMSS or GAS with strong communication and leadership track records may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Business Administration and Accountancy (CBAA)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSCRIM">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Realistic"/>
+  <alignsWithHollandType rdf:resource="#Social"/>
+  <requiresCompetency rdf:resource="#Criminal_Investigation"/>
+  <requiresCompetency rdf:resource="#Forensic_Analysis"/>
+  <requiresCompetency rdf:resource="#Legal_Reasoning"/>
+  <requiresCompetency rdf:resource="#Physical_Fitness"/>
+  <requiresCompetency rdf:resource="#Crisis_Management"/>
+  <requiresCompetency rdf:resource="#Report_Writing"/>
+  <requiresCompetency rdf:resource="#Public_Safety_Procedures"/>
+  <requiresCompetency rdf:resource="#Ethical_Judgment"/>
+  <requiresCompetency rdf:resource="#Discipline_and_Order"/>
+  <leadsToCareer rdf:resource="#Law_Enforcement"/>
+  <leadsToCareer rdf:resource="#Criminal_Investigation"/>
+  <leadsToCareer rdf:resource="#Forensic_Science"/>
+  <leadsToCareer rdf:resource="#Public_Safety"/>
+  <leadsToCareer rdf:resource="#Correctional_Management"/>
+  <leadsToCareer rdf:resource="#Private_Security"/>
+  <leadsToCareer rdf:resource="#Criminal_Justice_Research"/>
+  <leadsToCareer rdf:resource="#Government_Safety_Services"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Criminology</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSCRIM</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from HUMSS strand. Students from GAS, STEM, or TVL with discipline, physical fitness, and interest in law enforcement may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Criminal Justice Education (CCJE)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSEd">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Social"/>
+  <alignsWithHollandType rdf:resource="#Artistic"/>
+  <requiresCompetency rdf:resource="#Communication"/>
+  <requiresCompetency rdf:resource="#Mentoring"/>
+  <requiresCompetency rdf:resource="#Curriculum_Development"/>
+  <requiresCompetency rdf:resource="#Instructional_Design"/>
+  <requiresCompetency rdf:resource="#Classroom_Management"/>
+  <requiresCompetency rdf:resource="#Student_Assessment"/>
+  <requiresCompetency rdf:resource="#Educational_Technology"/>
+  <requiresCompetency rdf:resource="#Interpersonal_Skills"/>
+  <leadsToCareer rdf:resource="#Teaching"/>
+  <leadsToCareer rdf:resource="#Curriculum_Development"/>
+  <leadsToCareer rdf:resource="#Educational_Administration"/>
+  <leadsToCareer rdf:resource="#Educational_Consulting"/>
+  <leadsToCareer rdf:resource="#Corporate_Training"/>
+  <leadsToCareer rdf:resource="#Government_Education_Services"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Secondary Education</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSEd</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from HUMSS strand. Students from ABM, STEM, or GAS who have a strong passion for teaching and a background aligned with their chosen major may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Teacher Education (CTE)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSF">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Realistic"/>
+  <alignsWithHollandType rdf:resource="#Investigative"/>
+  <requiresCompetency rdf:resource="#Aquaculture"/>
+  <requiresCompetency rdf:resource="#Marine_Biology"/>
+  <requiresCompetency rdf:resource="#Environmental_Monitoring"/>
+  <requiresCompetency rdf:resource="#Water_Quality_Management"/>
+  <requiresCompetency rdf:resource="#Fisheries_Resource_Assessment"/>
+  <requiresCompetency rdf:resource="#Seafood_Processing"/>
+  <requiresCompetency rdf:resource="#Research_Methods"/>
+  <requiresCompetency rdf:resource="#Biological_Sciences"/>
+  <requiresCompetency rdf:resource="#Environmental_Conservation"/>
+  <leadsToCareer rdf:resource="#Aquaculture_and_Fish_Production"/>
+  <leadsToCareer rdf:resource="#Marine_Biology_Research"/>
+  <leadsToCareer rdf:resource="#Environmental_Compliance"/>
+  <leadsToCareer rdf:resource="#Fisheries_Regulation"/>
+  <leadsToCareer rdf:resource="#Seafood_Quality_Control"/>
+  <leadsToCareer rdf:resource="#Community_Fisheries_Extension"/>
+  <leadsToCareer rdf:resource="#Government_Fisheries_Services"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Fisheries</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSF</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from STEM strand with interest in biology and environmental science. Students from TVL-Agriculture and Fisheries Arts strand are also strongly aligned.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Fisheries (COF)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSFT">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Investigative"/>
+  <alignsWithHollandType rdf:resource="#Realistic"/>
+  <requiresCompetency rdf:resource="#Food_Chemistry"/>
+  <requiresCompetency rdf:resource="#Microbiology"/>
+  <requiresCompetency rdf:resource="#Quality_Control"/>
+  <requiresCompetency rdf:resource="#Food_Processing"/>
+  <requiresCompetency rdf:resource="#Product_Development"/>
+  <requiresCompetency rdf:resource="#Laboratory_Analysis"/>
+  <requiresCompetency rdf:resource="#Food_Safety_Regulations"/>
+  <requiresCompetency rdf:resource="#Biological_Sciences"/>
+  <requiresCompetency rdf:resource="#Research_Methods"/>
+  <leadsToCareer rdf:resource="#Food_Technology"/>
+  <leadsToCareer rdf:resource="#Quality_Assurance"/>
+  <leadsToCareer rdf:resource="#Food_Product_Development"/>
+  <leadsToCareer rdf:resource="#Food_Safety_Inspection"/>
+  <leadsToCareer rdf:resource="#Food_Manufacturing"/>
+  <leadsToCareer rdf:resource="#Regulatory_Affairs"/>
+  <leadsToCareer rdf:resource="#Food_Research"/>
+  <leadsToCareer rdf:resource="#Food_Entrepreneurship"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Food Technology</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSFT</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from STEM strand with strong chemistry and biology performance. Students from TVL-Home Economics with high science grades may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Food and Nutrition and Dietetics (CFND)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSHRM">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Enterprising"/>
+  <alignsWithHollandType rdf:resource="#Social"/>
+  <requiresCompetency rdf:resource="#Customer_Service"/>
+  <requiresCompetency rdf:resource="#Events_Planning"/>
+  <requiresCompetency rdf:resource="#Food_and_Beverage_Operations"/>
+  <requiresCompetency rdf:resource="#Hotel_Operations_Management"/>
+  <requiresCompetency rdf:resource="#Leadership"/>
+  <requiresCompetency rdf:resource="#Communication"/>
+  <requiresCompetency rdf:resource="#Cross_Cultural_Communication"/>
+  <requiresCompetency rdf:resource="#Financial_Management"/>
+  <requiresCompetency rdf:resource="#Hospitality_Entrepreneurship"/>
+  <leadsToCareer rdf:resource="#Hotel_Management"/>
+  <leadsToCareer rdf:resource="#Restaurant_Management"/>
+  <leadsToCareer rdf:resource="#Events_Coordination"/>
+  <leadsToCareer rdf:resource="#Food_and_Beverage_Management"/>
+  <leadsToCareer rdf:resource="#Resort_and_Tourism_Management"/>
+  <leadsToCareer rdf:resource="#Hospitality_Entrepreneurship"/>
+  <leadsToCareer rdf:resource="#Airline_and_Cruise_Services"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Hotel and Restaurant Management</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSHRM</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">82.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from ABM or HUMSS strand. Students from TVL-Home Economics with strong interpersonal skills may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of International Hospitality and Tourism Management (CIHTM)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSIT">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Realistic"/>
+  <alignsWithHollandType rdf:resource="#Investigative"/>
+  <requiresCompetency rdf:resource="#Systems_Development"/>
+  <requiresCompetency rdf:resource="#Web_Development"/>
+  <requiresCompetency rdf:resource="#Database_Management"/>
+  <requiresCompetency rdf:resource="#Network_Administration"/>
+  <requiresCompetency rdf:resource="#Technical_Support"/>
+  <requiresCompetency rdf:resource="#Cybersecurity"/>
+  <requiresCompetency rdf:resource="#IT_Project_Management"/>
+  <requiresCompetency rdf:resource="#UI_UX_Design"/>
+  <requiresCompetency rdf:resource="#Information_Technology"/>
+  <leadsToCareer rdf:resource="#Web_Development"/>
+  <leadsToCareer rdf:resource="#Systems_Administration"/>
+  <leadsToCareer rdf:resource="#Database_Administration"/>
+  <leadsToCareer rdf:resource="#IT_Support_and_Consulting"/>
+  <leadsToCareer rdf:resource="#Network_Administration"/>
+  <leadsToCareer rdf:resource="#Software_Development"/>
+  <leadsToCareer rdf:resource="#Cybersecurity"/>
+  <leadsToCareer rdf:resource="#UI_UX_Design"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Information Technology</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSIT</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from STEM or TVL-ICT strand. Students from other strands with strong technology interest and self-taught experience may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Computer Studies (CCS)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BSPSY">
+  <rdf:type rdf:resource="#AcademicProgram"/>
+  <alignsWithHollandType rdf:resource="#Social"/>
+  <alignsWithHollandType rdf:resource="#Investigative"/>
+  <requiresCompetency rdf:resource="#Counseling"/>
+  <requiresCompetency rdf:resource="#Research_Methods"/>
+  <requiresCompetency rdf:resource="#Behavioral_Analysis"/>
+  <requiresCompetency rdf:resource="#Communication"/>
+  <requiresCompetency rdf:resource="#Empathy_and_Active_Listening"/>
+  <requiresCompetency rdf:resource="#Data_Analysis"/>
+  <requiresCompetency rdf:resource="#Ethical_Reasoning"/>
+  <requiresCompetency rdf:resource="#Report_Writing"/>
+  <leadsToCareer rdf:resource="#Guidance_Counseling"/>
+  <leadsToCareer rdf:resource="#Human_Resources"/>
+  <leadsToCareer rdf:resource="#Clinical_Psychology"/>
+  <leadsToCareer rdf:resource="#Community_Development"/>
+  <leadsToCareer rdf:resource="#Research"/>
+  <leadsToCareer rdf:resource="#Mental_Health_Advocacy"/>
+  <leadsToCareer rdf:resource="#Organizational_Psychology"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor of Science in Psychology</rdfs:label>
+  <hasProgramCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPSY</hasProgramCode>
+  <hasGradeThreshold rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.0</hasGradeThreshold>
+  <hasStrandAlignment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recommended for students from HUMSS strand. Students from GAS or ABM with strong communication and social science performance may also qualify.</hasStrandAlignment>
+  <hasCollegeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College of Arts and Sciences (CAS)</hasCollegeName>
+</owl:NamedIndividual>
+
+<owl:AllDifferent>
+  <owl:distinctMembers rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Realistic"/>
+    <rdf:Description rdf:about="#Investigative"/>
+    <rdf:Description rdf:about="#Artistic"/>
+    <rdf:Description rdf:about="#Social"/>
+    <rdf:Description rdf:about="#Enterprising"/>
+    <rdf:Description rdf:about="#Conventional"/>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#HollandType"/>
+    <rdf:Description rdf:about="#AcademicProgram"/>
+    <rdf:Description rdf:about="#CompetencyDomain"/>
+    <rdf:Description rdf:about="#CareerOutcome"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>

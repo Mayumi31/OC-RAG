@@ -1,0 +1,37 @@
+{
+  "code": "BSF",
+  "name": "Bachelor of Science in Fisheries",
+  "college": "College of Fisheries (COF)",
+  "overview": "The BS Fisheries program trains students in aquatic resource management, fish production, aquaculture, marine biology, and fisheries technology. Students learn to sustainably manage fish and aquatic resources for food security and environmental conservation. The program combines biological sciences with practical fisheries operations.",
+  "ideal_student": "This program suits students who love the ocean, rivers, lakes, and aquatic life. Students who are comfortable working outdoors, are interested in marine biology and environmental science, and want to contribute to food security and sustainable fishing practices thrive here. It is also great for students from fishing communities who want to improve their industry with scientific knowledge.",
+  "skills": "Aquaculture techniques, fish biology, water quality management, fisheries resource assessment, seafood processing, environmental monitoring, research methods, boat operation, and fisheries legislation.",
+  "careers": "Fisheries technologist, aquaculture farmer, marine biologist, fish inspector, seafood quality controller, fisheries extension officer, environmental compliance officer, fish hatchery manager, government fisheries regulator, researcher.",
+  "work_environment": "Graduates work in fish farms, hatcheries, government fisheries bureaus (BFAR), research institutions, coastal communities, seafood processing plants, and environmental agencies. Work involves fieldwork near water bodies, laboratory analysis, and community extension activities.",
+  "strand_alignment": "Recommended for students from STEM strand with interest in biology and environmental science. Students from TVL-Agriculture and Fisheries Arts strand are also strongly aligned.",
+  "grade_threshold": 80,
+  "keywords": "fisheries fish aquaculture marine ocean sea lake river water biology aquatic seafood food production environment nature outdoor sustainability fishing community BFAR hatchery shrimp tilapia seaweed algae coral reef coastal resources conservation aquatic science fishing industry",
+  "holland_types": ["Realistic", "Investigative"],
+  "holland_primary": "Realistic",
+  "holland_secondary": "Investigative",
+  "holland_rationale": "BSF is primarily Realistic because it involves direct hands-on work with nature, aquatic systems, and physical environments — fieldwork, boat operation, aquaculture farming, and seafood processing. Investigative is secondary because fisheries science requires biological research, water quality analysis, environmental monitoring, and resource assessment grounded in scientific methodology.",
+  "competency_domains": [
+    "Aquaculture",
+    "Marine Biology",
+    "Environmental Monitoring",
+    "Water Quality Management",
+    "Fisheries Resource Assessment",
+    "Seafood Processing",
+    "Research Methods",
+    "Biological Sciences",
+    "Environmental Conservation"
+  ],
+  "career_outcome_categories": [
+    "Aquaculture and Fish Production",
+    "Marine Biology Research",
+    "Environmental Compliance",
+    "Fisheries Regulation",
+    "Seafood Quality Control",
+    "Community Fisheries Extension",
+    "Government Fisheries Services"
+  ]
+}
